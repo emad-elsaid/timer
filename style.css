@@ -1,11 +1,25 @@
 body{
 	font-family: 'ubuntu','tahoma','sans-serif';
+	color: #333;
+	background: #eee;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+#scrambles{
+	font-size: 20px;
+	color: #555;
+	text-align: center;
+	background: #fafafa;
+	width: 700px;
+	padding: 5px;
+	margin: 30px auto;
+	border-radius: 10px;
+	box-shadow: inset 2px 2px 2px #ccc;
 }
 
 #time{
-	color: #333;
 	text-align: center;
-	margin: 100px 20px 50px 20px;
+	margin: 50px 20px 50px 20px;
 	font-size: 100px;
 }
 

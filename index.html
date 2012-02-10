@@ -8,10 +8,15 @@
 </head>
 
 <body onKeypress="timer_obj.toggle()" >
-	<h1 id="time" ></h1>
+	<div id="scrambles" ></div>
+	<h1 id="time" >00:00.000</h1>
 	<p class="hint">press any key to start or stop timer</p>
 	<script>
-		var timer_obj = new Timer(document.getElementById('time'));
+		var timer_obj = new Timer(
+								document.getElementById('time'),
+								document.getElementById('scrambles')
+								);
+		timer_obj.scramble();
 	</script>
 </body>
 
